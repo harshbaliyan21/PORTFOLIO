@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				<h1 class="logo">Harsh.</h1> 
+				<ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#context">Contact</a></li>
+					<i class="fas fa-times" onclick="closemenu()"></i>
+				</ul>
+				<i class="fas fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="header-text">
+				
+				<h1>Hi, I'm <span>Harsh Baliyan</span><br>Web Developer</h>
+			</div>
+		</div>
+</div>
+<div id="about">
+	<div class="container">
+		<div class="row">
+			 <div class="about-col-1">
+				<img src="images/IMG20231105151046-removebg-preview.png">
+			 </div>
+			 <div class="about-col-2">
+				<h1 class="sub-tittle">About me</h1>
+				<p>I'm Harsh Baliyan, a graduate with a Bachelor's in Electronic and Communication Engineering. Hailing from Muzaffarnagar, I'm passionate about the world of electronics and communication technology. I have a strong foundation in this field and a drive to innovate and contribute to the ever-evolving industry, with a particular focus on two key areas:
+                      <br> 
+					  <br>
+					<span class="cl">VLSI Techonology</span>: My fascination with Very-Large-Scale Integration technology drives me to explore the intricacies of designing complex integrated circuits. I'm enthusiastic about creating efficient and high-performance electronic systems through VLSI, and I'm always eager to take on new challenges in this domain.
+					<br>
+					<br>
+					<span class=cl>Embedded Programming</span>: I'm equally drawn to the world of embedded programming, where I get to breathe life into hardware through code. Crafting software that optimizes hardware functionality and enhances user experiences is a realm I find deeply rewarding.
+					
+					My professional journey has been marked by a dedication to learning and pushing the boundaries of what's possible in these fields. I'm committed to using my knowledge and skills to make a positive impact.
+					
+					
+				</P>
+				 <br>
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('experience')">experience</p>
+					<p class="tab-links" onclick="opentab('education')">education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>Web Development</span><br>Proficient in HTML, CSS, JavaScript</li>
+						<li><span>Programming</span><br>Experienced in C++, Python</li>
+						<li><span>Design</span><br>Skilled in UI/UX design<
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						
+						<li><span> Hardware Project </span><br>Wireless sensor network</li>
+						<li><span>Hackathon </span><br>2022 jaipur</li>
+					    
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>High School </span><br>The skyland School, 2018</li>
+						<li><span>Inter </span><br>The skyland School, 2020</li>
+						<li><span>Bachelor of Technology</span><br>APJ Abdul kalam University, 2021- 2025</li>
+					    
+						
+					</ul>
+				</div>
+				</div>
+			 </div>
+			 
+		</div>
+	</div>
+
+</div>
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My services</h1>
+		<div class="services-list">
+			<div>
+                 <h2>Web Design</h2>
+				 <p>
+					html	
+					css
+					javascript
+				 </p>
+				 <a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fas fa-crop-alt"></i>
+				<h2>Backand</h2>
+				<p>
+				   React js
+				   Node js
+				</p>
+				<a href="#">Learn more</a>
+		   </div>
+		   <div>
+			<i class="fab fa-app-store"></i>
+			<h2>Frontends</h2>
+			<p>
+			   web pages
+			</p>
+			<a href="#">Learn more</a>
+	   </div>
+
+		</div>
+	</div>
+
+</div>
+
+<div id="portfolio">
+    <div class="container">
+		 <h1 class="sub-title">My work</h1>
+		 <div class="work-list">
+			  <div class="work">
+				<img src="images/work-1.png">
+				<div class="layer">
+                 <h3>Social media App </h3>
+				 <p>
+                   The app connect you the talented people around the world.
+				 </p>
+				</div>
+			  </div>
+			  <div class="work">
+				<img src="images/work-2.png">
+				<div class="layer">
+					<h3>Music App </h3>
+					<p>
+					  The app connect you the talented people around the world.
+					</p>
+				   </div>
+			  </div>
+			  <div class="work">
+				<img src="images/work-3.png">
+				<div class="layer">
+					<h3>Shopping  App </h3>
+					<p>
+					  The app connect you the talented people around the world.
+					</p>
+				   </div>
+			  </div>
+		 </div>
+		 <a href="#" class="btn">see more</a>
+	</div>
+</div>
+
+
+<div id="context">
+       <dic class="container">
+		<div class="row">
+			<div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+				<p><i class="fas fa-paper-plane"></i> harshbaliyan21@gmail.com</p>
+				<p> <i class="fas fa-phone-square-alt"></i>8923944592</p>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/harsh.baliyan.98?mibextid=ZbWKwL"> <i class="fab fa-facebook"></i></a>
+					<a href="https://x.com/HarshBa56428212?t=ub3Sfd4T98535v0P803Mkw&s=09"> <i class="fab fa-twitter"></i></a>
+					<a href="https://instagram.com/harsh1580?igshid=OGQ5ZDc2ODk2ZA=="> <i class="fab fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/harsh-baliyan-b1a010246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "> <i class="fab fa-linkedin"></i></a>
+				</div>
+				<a href="images/harsh resume.pdf" download class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				 <form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="your Name" required>
+					<input type="Email" name="Email" placeholder="your email" required>
+					<textarea name="Message" rows="6" placeholder="your Message"></textarea>
+				    <button type="submit" class="btn btn2">submit</button>
+				</form> 
+				<span id="msg"></span>
+			</div>
+		</div>
+	   </div>
+</div>
+
+<script>
+	var tablinks=document.getElementsByClassName("tab-links");
+	var tabcontents=document.getElementsByClassName("tab-contents");
+	function opentab(tabname)
+	{
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+</script>
+<script>
+	 var sidemenu=document.getElementById("sidemenu");
+
+	 function openmenu()
+	 {
+		 sidemenu.style.right="0";
+	 }
+	 function closemenu()
+	 {
+		 sidemenu.style.right="-200px";
+	 }
+</script>
+
+<script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbyV0i7hGbGHes20s5QfJ9-jQw0ERzqjPBfEEboZq1Vl48F7NqxDyVtHB9yPBHs6gf2x/exec '
+	const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+	form.addEventListener('submit', e => {
+	  e.preventDefault()
+	  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		.then(response => {
+		msg.innerHTML=	"Message send successfully"
+		setTimeout(function(){
+			 msg.innerHTML=""
+		},500)
+		form.reset()
+		})
+		.catch(error => console.error('Error!', error.message))
+	})
+  </script>
+</body>
+</html>
